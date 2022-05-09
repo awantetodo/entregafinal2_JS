@@ -1,0 +1,47 @@
+/*Grilla */
+.grid-container {
+    display: grid;
+    margin: 40px 0 40px 0;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 200px);
+    gap: 1px 1px;
+    text-align: center;
+    justify-content: stretch;
+    font-size: 1.5rem;
+    grid-template-areas: "bannerUno bannerUno bannerUno bannerUno"
+   "noticiaDos noticiaDos noticiaTres noticiaCuatro"
+   "noticiaCinco noticiaSeis noticiaSiete noticiaCuatro"; 
+  }
+  
+  .bannerUno {
+    grid-area: bannerUno;
+    color: $color2;
+    background-color: $color4; 
+    overflow: scroll;
+  }
+  
+  .noticiaTres {
+    grid-area: noticiaTres;
+    background-color: $color3; }
+  
+  .noticiaDos {
+    grid-area: noticiaDos;
+    color: $color4;
+    background-color: $color2; }
+  
+  .noticiaCuatro {
+    grid-area: noticiaCuatro;
+    background-color: $color1 ; }
+  
+  .noticiaCinco {
+    grid-area: noticiaCinco;
+  background-color: $color3; }
+  
+  .noticiaSeis {
+    grid-area: noticiaSeis;
+    background-color: $color1; }
+  
+  .noticiaSiete {
+    grid-area: noticiaSiete;
+    background-color: $color2;
+  color: $color4; }

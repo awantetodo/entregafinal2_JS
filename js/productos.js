@@ -1,0 +1,20 @@
+const productos = [
+    {id:01, tipo:"Remera", nombre:"Musculosa Mibanda", precio: 1400, foto: "./media/reme1.png" },
+    {id:02, tipo:"Remera", nombre:"Remera Mibanda mujer", precio: 1400, foto: "./media/reme2.jpg" },
+    {id:03, tipo:"Remera", nombre:"Remera Mibanda hombre", precio: 1000, foto: "./media/reme3.jpg" },
+    {id:04, tipo:"Remera", nombre:"Remera Mibanda oversized", precio: 1000, foto: "./media/reme4.jpg" },
+    {id:05, tipo:"Remera", nombre:"Remera X", precio: 1400, foto: "./media/reme5.jpg" },
+    {id:06, tipo:"Remera", nombre:"Remera Y", precio: 1500, foto: "./media/reme6.jpg" },
+    {id:07, tipo: "Buzo", nombre: "Buzo Mibanda", precio: 4500, foto: "./media/buzo1.jpg"},
+    {id:08, tipo: "Buzo", nombre: "Buzo Mibanda hombre", precio: 3800, foto: "./media/buzo2.jpg"},
+    {id:09, tipo: "Buzo", nombre: "Buzo Mibanda mujer", precio: 3800, foto: "./media/buzo3.jpg"},
+    {id:10, tipo: "Buzo", nombre: "Hoddie Mibanda", precio: 3800, foto: "./media/hoodie.jpg"},
+    {id:11, tipo: "Pantalon", nombre: "Jogging Mibanda", precio: 2900, foto: "./media/pant logo.jpg"},
+    {id:12, tipo: "Short", nombre: "Short Mibanda hombre", precio: 1200, foto: "./media/short.jpg"},
+    {id:13, tipo: "Short", nombre: "Short Mibanda mujer", precio: 1000, foto: "./media/short3.jpg"},
+    {id:14, tipo: "Biker", nombre: "Biker Mibanda", precio: 1300, foto: "./media/biker.jpg"},
+    {id:15, tipo: "Accesorio", nombre: "Lentes Mibanda", precio: 2300, foto: "./media/lentes.jpg"},
+    {id:16, tipo: "Accesorio", nombre: "Lentes Mibanda", precio: 2400, foto: "./media/lentes2.jpg"},
+    {id:17, tipo: "Accesorio", nombre: "Beanie Mibanda", precio: 800, foto: "./media/beanie1.jpg"},
+    {id:18, tipo: "Accesorio", nombre: "Beanie Mibanda", precio: 800, foto: "./media/beanie2.jpg"}
+];
